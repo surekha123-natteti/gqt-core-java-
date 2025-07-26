@@ -7,13 +7,12 @@ public class pattern18 {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the count : ");
 		int n=sc.nextInt();
-		for(int i=0;i<n;i++) {
-			for(int j=0;j<n;j++) {
-				System.out.print((i+j)%2+" ");
+		for(int i=1;i<=n;i++) {
+			for(int j=i;j<=n;j++) {
+				System.out.print("* ");
 			}
 			System.out.println();
 		}
-
 	}
 
 }
