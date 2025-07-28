@@ -14,7 +14,7 @@ import java.util.Scanner;
 /**
  * @author NATTETI SUREKHA
  * @category patterns
- * @description This is an example for alphabets pattern 
+ * @description This is an example for number pattern 
  */
 public class num_9 {
 
